@@ -1,5 +1,3 @@
-import sys
-
 cm_IN = 1 / 2.54
 in_CM = 2.54
 yd_M = 0.9144
