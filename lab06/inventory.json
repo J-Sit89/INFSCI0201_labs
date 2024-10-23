@@ -1,0 +1,29 @@
+{
+    "owner": "Beleg",
+    "items": [
+        {
+            "name": "Belthronding",
+            "legendary": true,
+            "damage": 500,
+            "type": "bow"
+        },
+        {
+            "name": "Master Sword",
+            "legendary": true,
+            "damage": 300,
+            "type": "sword"
+        },
+        {
+            "name": "Muramasa",
+            "legendary": true,
+            "damage": 580,
+            "type": "katana"
+        },
+        {
+            "name": "Gungnir",
+            "legendary": true,
+            "damage": 290,
+            "type": "spear"
+        }
+    ]
+}
