@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+</head>
+<body>
+    <h1>APOD History</h1>
+
+    <form action="/history" method="POST">
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" name="date" max="{{ today }}" min="1995-06-16" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if selected_date %}
+        <p>You selected: {{ selected_date }}</p>
+    {% else %}
+        <p>Please select a date.</p>
+    {% endif %}
+</body>
+</html>
